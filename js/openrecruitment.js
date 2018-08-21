@@ -189,7 +189,7 @@ if ($('#kelamin').val() == ""){
       valid = false;
     }
     if ($('#nomorTelepon').val() == "" || ($('#nomorTelepon').val())[0] != "'"){
-      parent.find('ol').append('<li>Nomor telepon Anda</li>');
+      parent.find('ol').append('<li>Nomor telepon Anda (pastikan menggunakan tanda petik satu. Misal '08123456789)</li>');
       valid = false;
     }
     if ($('#email').val() == ""){
@@ -209,7 +209,7 @@ if ($('#kelamin').val() == ""){
 					
 	 
 	if (($('#noDarurat').val() == "") || ($('#pihakDarurat').val() == "") || ($('#noDarurat').val())[0] != "'"){
-      parent.find('ol').append('<li>Kontak darurat Anda</li>');
+      parent.find('ol').append('<li>Kontak darurat Anda (pastikan menggunakan tanda petik satu. Misal '08123456789)</li>');
       valid = false;
     }
     if ($('#PerguruanTinggi').val() == ""){
